@@ -1,0 +1,56 @@
+name: 🐞 Bug Report
+description: "Something isn't working correctly"
+title: "[Bug] "
+labels: ["bug"]
+assignees:
+  - nixuno
+body:
+  - type: markdown
+    id: desc
+    attributes:
+      value: |
+        Thanks for taking the time to send us a bug report! Please check if a similar report is open or already fixed before submitting.
+  - type: input
+    id: expected
+    attributes:
+      label: 😊 Expected Behavior
+      description: Describe the behavior that you expected
+      placeholder: "When I run the script Get-HappyPicture it displays a happy picture on my monitor."
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: 😕 Actual Behavior
+      description: Describe the behavior that you experienced
+      placeholder: "When I run the script Get-HappyPicture it displays a sad picture sometimes 💔."
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 📇 Steps to Reproduce
+    
+      description: List the steps to reproduce the problem
+      placeholder: |
+        1. Run the script Get-HappyPicture
+        2. Wait for the script to complete
+        3. Receive the sad picture
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 🖥 Platform
+      description: What platform is the bug being produced on?
+      multiple: true
+      options:
+        - Local OS
+        - RMM
+  - type: textarea
+    attributes:
+      label: 🧅 Additional Context
+      description: Give any additional context about the idea here that may be helpful in diagnosis.
+      placeholder: "I noticed that it takes a little longer for the script to pull the sad pictures than the happy ones."
+    validations:
+      required: false
