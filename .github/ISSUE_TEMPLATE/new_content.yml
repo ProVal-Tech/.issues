@@ -1,0 +1,29 @@
+name: New Idea
+description: Submit a new idea for the development team
+title: "[New]: "
+labels: ["enhancement", "triage"]
+assignees:
+  - nixuno
+body:
+  - type: markdown
+    attributes:
+    value: |
+      Make sure that your idea has not already been created. Search our documenation if you haven't already! 📚
+  - type: textarea
+    attributes:
+      label: Problem Description
+      description: Describe the problem that you are trying to solve with this idea.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Idea Description
+      description: Describe the idea.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Give any additional context about the idea here.
+    validations:
+      required: false
