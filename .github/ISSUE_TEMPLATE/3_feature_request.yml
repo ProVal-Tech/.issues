@@ -1,0 +1,32 @@
+name: ➕ Feature Request
+description: Submit a feature idea for an existing item
+title: "[Feat] "
+labels: ["enhancement"]
+assignees:
+  - nixuno
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Make sure that your feature idea isn't already in development. Search the existing issues!
+  - type: textarea
+    attributes:
+      label: 🚩 Problem Description 
+      description: Describe the problem that you are trying to solve with this feature.
+      placeholder: "Sometimes I want to see a happy dog picture. 🐶"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 🪧 Feature Description
+      description: Describe the feature.
+      placeholder: "Add the option to only display certain categories of happy pictures when running Get-HappyPicture."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🧅 Additional Context
+      description: Give any additional context about the feature here.
+      placeholder: "Using regex to filter categories may be an option. `(dog|canine|cat|hamster)`"
+    validations:
+      required: false
