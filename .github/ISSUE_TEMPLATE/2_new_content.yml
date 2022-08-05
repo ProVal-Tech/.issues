@@ -13,20 +13,20 @@ body:
     attributes:
       label: 🚩 Problem Description 
       description: Describe the problem that you are trying to solve with this idea.
-      placeholder: "When I log into my computer, I want my wallpaper to change to a new one each day."
+      placeholder: "I would like to be able to see happy pictures on demand! 😃"
     validations:
       required: false
   - type: textarea
     attributes:
       label: 🪧 Idea Description
       description: Describe the idea.
-      placeholder: "A script that changes the wallpaper of the current user."
+      placeholder: "A script that displays a random happy picture."
     validations:
       required: true
   - type: textarea
     attributes:
       label: 🧅 Additional Context
       description: Give any additional context about the idea here.
-      placeholder: "We should be sure that the script is able to run in a user context so that they get their awesome wallpaper correctly. Maybe have it point towards a Directory or RSS feed of pictures?"
+      placeholder: "We should be sure that the script is able to run in a user context. Maybe have it point towards a directory or RSS feed of pictures?"
     validations:
       required: false
