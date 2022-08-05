@@ -4,5 +4,4 @@ contact_links:
     url: https://github.com/ProVal-Tech/.issues/discussions
     about: "For anything that doesn't fit into an issue template, ask your questions here!"
   - name: Support Requests
-    url: mailto:support@provaltech.com
-    about: Have a support request? Send us an e-mail!
+    about: Have a support request? Send us an email: support@provaltech.com
