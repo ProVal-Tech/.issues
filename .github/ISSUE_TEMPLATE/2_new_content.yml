@@ -1,7 +1,7 @@
 name: 💡 New Idea
 description: Submit a new idea for the development team
 title: "[New] "
-labels: ["enhancement"]
+labels: ["idea"]
 assignees:
   - nixuno
 body:
