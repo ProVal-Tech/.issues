@@ -1,7 +1,7 @@
-name: New Idea
+name: 💡 New Idea
 description: Submit a new idea for the development team
-title: "[New]: "
-labels: ["enhancement", "triage"]
+title: "[New] "
+labels: ["enhancement"]
 assignees:
   - nixuno
 body:
@@ -11,19 +11,22 @@ body:
         Make sure that your idea has not already been created. Search our documenation if you haven't already! 📚
   - type: textarea
     attributes:
-      label: Problem Description
+      label: 🚩 Problem Description 
       description: Describe the problem that you are trying to solve with this idea.
+      placeholder: "When I log into my computer, I want my wallpaper to change to a new one each day."
     validations:
       required: false
   - type: textarea
     attributes:
-      label: Idea Description
+      label: 🪧 Idea Description
       description: Describe the idea.
+      placeholder: "A script that changes the wallpaper of the current user."
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Additional Context
+      label: 🧅 Additional Context
       description: Give any additional context about the idea here.
+      placeholder: "We should be sure that the script is able to run in a user context so that they get their awesome wallpaper correctly. Maybe have it point towards a Directory or RSS feed of pictures?"
     validations:
       required: false
