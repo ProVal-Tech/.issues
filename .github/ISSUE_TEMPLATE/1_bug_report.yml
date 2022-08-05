@@ -15,7 +15,7 @@ body:
     attributes:
       label: 😊 Expected Behavior
       description: Describe the behavior that you expected
-      placeholder: "When I run the script Get-HappyPicture it displays a happy picture on my monitor."
+      placeholder: "When I run the script Get-HappyPicture I get a happy picture"
     validations:
       required: true
   - type: input
@@ -23,7 +23,7 @@ body:
     attributes:
       label: 😕 Actual Behavior
       description: Describe the behavior that you experienced
-      placeholder: "When I run the script Get-HappyPicture it displays a sad picture sometimes 💔."
+      placeholder: "When I ran the script Get-HappyPicture I got a sad picture 💔"
     validations:
       required: true
   - type: textarea
