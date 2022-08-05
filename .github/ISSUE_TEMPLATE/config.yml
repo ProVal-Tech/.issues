@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/ProVal-Tech/.issues/discussions
+    about: "For anything that doesn't fit into an issue template, ask your questions here!"
+  - name: Support Requests
+    url: mailto:support@provaltech.com
+    about: Have a support request? Send us an e-mail!
